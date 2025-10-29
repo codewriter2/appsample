@@ -1,6 +1,7 @@
 import streamlit as st
-st.title("test")
+st.title("MY First APP")
 st.write("Hello")
 name =st.text_input("name?")
-if st.button("HELLO"):
+if st.button("CLICK"):
     st.success(f"안녕하세요{name}님")
+
